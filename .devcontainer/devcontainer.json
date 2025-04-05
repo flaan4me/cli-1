@@ -3,30 +3,30 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 {
-	"name": "Dev Containers CLI",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { 
-			"VARIANT": "18-bookworm"
+	"اسم": "ديف الحاويات CLI",
+	"بناء": {
+		"ملف قضيب": "ملف قضيب",
+		"أرغس": { 
+			"متغير": "دودة الكتب الـ18"
 		}
 	},
-	"mounts": [
-		// Keep command history across instances
-		"source=dev-containers-cli-bashhistory,target=/home/node/commandhistory"
+	"الجبال": [
+ // حافظ على تاريخ الأوامر عبر الحالات 
+		"المصدر = ايداعا الحاويات-كلية-باشهستوري,الهدف=/الوطن/العقدة/تاريخ القيادة"    (باللغة الإنجليزية) . (باللغة الإنجليزية) .(باللغة الإنجليزية) . (باللغة الإنجليزية) . (باللغة الإنجليزية) . (باللغة الإنجليزية) . (باللغة الإنجليزية) . (باللغة الإنجليزية) .   
 	],
 
-	"postCreateCommand": "yarn install",
+	"ما بعد القيادة": "تثبيت الغزل",
 
-	"remoteUser": "node",
+	"المستخدم عن بعد": "عقدة",
 	
-	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	"مواصفات": {
+		"Ghr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 	
-	"customizations": {
+	"التخصيصات": {
 		"vscode": {
-			"extensions": [
-				"dbaeumer.vscode-eslint",
+			"امتدادات": [
+				"Dbaeumer.vscode-eslint",
 				"GitHub.vscode-pull-request-github"
 			]
 		},
